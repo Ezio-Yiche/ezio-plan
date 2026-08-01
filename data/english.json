@@ -1,0 +1,43 @@
+{
+  "date": "2026-08-01",
+  "day": 1,
+  "start_date": "2026-08-01",
+  "title": "雅思每日30词 + 阅读",
+  "words": [
+    { "word": "abundant", "phon": "/əˈbʌndənt/", "pos": "adj.", "def": "丰富的；充裕的", "example": "The region has abundant natural resources." },
+    { "word": "advocate", "phon": "/ˈædvəkeɪt/", "pos": "v.", "def": "提倡；拥护", "example": "She advocates a balanced diet and regular sleep." },
+    { "word": "allocate", "phon": "/ˈæləkeɪt/", "pos": "v.", "def": "分配；拨出", "example": "The government allocated funds to education." },
+    { "word": "ambiguous", "phon": "/æmˈbɪɡjuəs/", "pos": "adj.", "def": "模棱两可的；模糊的", "example": "His answer was ambiguous and confused everyone." },
+    { "word": "compensate", "phon": "/ˈkɒmpenseɪt/", "pos": "v.", "def": "补偿；弥补", "example": "They compensated him for the financial loss." },
+    { "word": "comprehensive", "phon": "/ˌkɒmprɪˈhensɪv/", "pos": "adj.", "def": "全面的；综合的", "example": "A comprehensive review of the policy is needed." },
+    { "word": "compulsory", "phon": "/kəmˈpʌlsəri/", "pos": "adj.", "def": "强制的；义务的", "example": "Education is compulsory for children." },
+    { "word": "consecutive", "phon": "/kənˈsekjətɪv/", "pos": "adj.", "def": "连续的；连贯的", "example": "It rained for three consecutive days." },
+    { "word": "deteriorate", "phon": "/dɪˈtɪəriəreɪt/", "pos": "v.", "def": "恶化；变坏", "example": "Air quality deteriorated rapidly after the fire." },
+    { "word": "diminish", "phon": "/dɪˈmɪnɪʃ/", "pos": "v.", "def": "减少；削弱", "example": "His influence in the company began to diminish." },
+    { "word": "diverse", "phon": "/daɪˈvɜːs/", "pos": "adj.", "def": "多样的；不同的", "example": "The city has a culturally diverse population." },
+    { "word": "eliminate", "phon": "/ɪˈlɪmɪneɪt/", "pos": "v.", "def": "消除；淘汰", "example": "We must eliminate poverty and inequality." },
+    { "word": "enhance", "phon": "/ɪnˈhɑːns/", "pos": "v.", "def": "提高；增强", "example": "Regular exercise enhances your mood." },
+    { "word": "evolve", "phon": "/ɪˈvɒlv/", "pos": "v.", "def": "进化；逐步发展", "example": "Technology continues to evolve at great speed." },
+    { "word": "feasible", "phon": "/ˈfiːzəbl/", "pos": "adj.", "def": "可行的；可能的", "example": "The proposed plan is technically feasible." },
+    { "word": "fluctuate", "phon": "/ˈflʌktʃueɪt/", "pos": "v.", "def": "波动；起伏", "example": "Energy prices fluctuate daily on the market." },
+    { "word": "fundamentally", "phon": "/ˌfʌndəˈmentəli/", "pos": "adv.", "def": "根本地；基本上", "example": "The system changed fundamentally last year." },
+    { "word": "hypothesis", "phon": "/haɪˈpɒθəsɪs/", "pos": "n.", "def": "假设；假说", "example": "The hypothesis was later proven by experiments." },
+    { "word": "implement", "phon": "/ˈɪmplɪment/", "pos": "v.", "def": "实施；执行", "example": "They implemented the new policy smoothly." },
+    { "word": "inevitable", "phon": "/ɪnˈevɪtəbl/", "pos": "adj.", "def": "不可避免的；必然的", "example": "Change is inevitable in a growing economy." },
+    { "word": "intricate", "phon": "/ˈɪntrɪkət/", "pos": "adj.", "def": "错综复杂的", "example": "The watch has an intricate mechanical design." },
+    { "word": "mitigate", "phon": "/ˈmɪtɪɡeɪt/", "pos": "v.", "def": "减轻；缓解", "example": "Steps were taken to mitigate the risk." },
+    { "word": "numerous", "phon": "/ˈnjuːmərəs/", "pos": "adj.", "def": "众多的；许多的", "example": "Numerous studies support this conclusion." },
+    { "word": "objective", "phon": "/əbˈdʒektɪv/", "pos": "adj.", "def": "客观的；如实的", "example": "We need a more objective assessment." },
+    { "word": "paradigm", "phon": "/ˈpærədaɪm/", "pos": "n.", "def": "范式；模式", "example": "A new paradigm of work has emerged." },
+    { "word": "prominent", "phon": "/ˈprɒmɪnənt/", "pos": "adj.", "def": "杰出的；显著的", "example": "She is a prominent figure in science." },
+    { "word": "subsequent", "phon": "/ˈsʌbsɪkwənt/", "pos": "adj.", "def": "随后的；后来的", "example": "The subsequent events surprised analysts." },
+    { "word": "sustainable", "phon": "/səˈsteɪnəbl/", "pos": "adj.", "def": "可持续的", "example": "Sustainable development protects the planet." },
+    { "word": "unprecedented", "phon": "/ʌnˈpresɪdentɪd/", "pos": "adj.", "def": "前所未有的；空前的", "example": "We face unprecedented global challenges." },
+    { "word": "viable", "phon": "/ˈvaɪəbl/", "pos": "adj.", "def": "可行的；能存活的", "example": "It is a viable long-term solution." }
+  ],
+  "article": {
+    "title": "Building a Sustainable Future",
+    "body": "Cities around the world are facing unprecedented challenges as populations grow and resources become less abundant. To build a sustainable future, experts advocate a comprehensive plan that allocates funds to clean energy and public transport. Although the initial cost may seem high, numerous studies confirm this approach is both feasible and viable. A prominent scientist proposed the hypothesis that reducing waste can mitigate climate risks, and subsequent policies implemented her idea. Technology will continue to evolve, but we must not let environmental quality deteriorate. An objective review shows that diverse communities benefit when we eliminate pollution at its source. While change is inevitable, a new paradigm of green living can fundamentally enhance our lives. Prices for renewable energy no longer fluctuate as sharply, and even intricate systems can compensate for past damage. Education should be compulsory so that consecutive generations understand these goals. The plan is ambitious yet clear — ambiguous targets must be avoided if we want measurable progress.",
+    "translation": "随着人口增长、资源不再丰裕，全球城市正面临前所未有的挑战。为构建可持续的未来，专家倡导一项全面计划，将资金分配给清洁能源与公共交通。尽管初期成本看似高昂，但大量研究证实这一路径既可行又可落地。一位杰出科学家提出假设：减少浪费可缓解气候风险，后续政策采纳了她的构想。技术将持续演进，但我们不能任由环境质量恶化。客观评估显示，消除污染源能让多元社区受益。变革虽不可避免，但绿色生活的新范式能从根本上升级我们的生存质量。可再生能源价格不再剧烈波动，即便复杂系统也能补偿过往损伤。教育应当义务化，让代际相继的一代人理解这些目标。计划宏大却清晰——若想取得可衡量进展，必须规避含糊的目标。"
+  }
+}
