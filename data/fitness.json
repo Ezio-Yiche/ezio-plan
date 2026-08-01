@@ -1,0 +1,4400 @@
+{
+  "profile": {
+    "height_cm": 177,
+    "start_weight_kg": 80,
+    "start_bf": 24,
+    "target_weight_kg": 75,
+    "target_bf": 18,
+    "start_date": "2026-08-01",
+    "total_days": 90,
+    "goal": "3 个月打造薄肌身材（减脂 5kg，体脂 24%→18%）"
+  },
+  "phases": [
+    {
+      "id": 1,
+      "name": "基础适应期",
+      "weeks": "第1-4周",
+      "desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。",
+      "cal": 2000,
+      "protein": 150,
+      "carb": 200,
+      "fat": 65,
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25
+    },
+    {
+      "id": 2,
+      "name": "进阶增肌减脂期",
+      "weeks": "第5-8周",
+      "desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。",
+      "cal": 1850,
+      "protein": 155,
+      "carb": 175,
+      "fat": 60,
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30
+    },
+    {
+      "id": 3,
+      "name": "冲刺塑形期",
+      "weeks": "第9-12周",
+      "desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。",
+      "cal": 1750,
+      "protein": 160,
+      "carb": 150,
+      "fat": 55,
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35
+    }
+  ],
+  "plan": [
+    {
+      "day": 1,
+      "date": "2026-08-01",
+      "weekday": "周六",
+      "week": 1,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "活跃恢复",
+      "training": false,
+      "exercises": [],
+      "cardio": "散步 40 分钟 / 瑜伽拉伸 20 分钟 / 泡沫轴放松",
+      "cardio_min": 40,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "训练前动态热身 5 分钟，避免受伤。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 2,
+      "date": "2026-08-02",
+      "weekday": "周日",
+      "week": 1,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "完全休息",
+      "training": false,
+      "exercises": [],
+      "cardio": "休息日，保证睡眠与蛋白质摄入",
+      "cardio_min": 0,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "记录每次训练重量，下周尝试 +2.5kg 或 +1 次。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 3,
+      "date": "2026-08-03",
+      "weekday": "周一",
+      "week": 1,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "胸 + 三头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃平板卧推",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "上斜哑铃推举",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "器械夹胸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "双杠臂屈伸（自重）",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "绳索下压（三头）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "窄距俯卧撑",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "蛋白分 4-5 次摄入，吸收更稳。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 4,
+      "date": "2026-08-04",
+      "weekday": "周二",
+      "week": 1,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "背 + 二头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "引体向上 / 高位下拉",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "杠铃划船",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿绳索划船",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "直臂下压",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "锤式弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "每天饮水 2.5-3L，脂肪代谢需要水。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 5,
+      "date": "2026-08-05",
+      "weekday": "周三",
+      "week": 1,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "腿 + 臀",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃深蹲",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "罗马尼亚硬拉",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "腿举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "保加利亚分腿蹲",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿腿屈伸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "站姿提踵",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "训练前动态热身 5 分钟，避免受伤。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 6,
+      "date": "2026-08-06",
+      "weekday": "周四",
+      "week": 1,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "肩 + 核心",
+      "training": true,
+      "exercises": [
+        {
+          "name": "站姿哑铃推举",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃侧平举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "反向飞鸟（后束）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "面拉",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "平板支撑",
+          "sets": 3,
+          "reps": "45-60s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "悬垂举腿",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "记录每次训练重量，下周尝试 +2.5kg 或 +1 次。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 7,
+      "date": "2026-08-07",
+      "weekday": "周五",
+      "week": 1,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "全身功能 / HIIT",
+      "training": true,
+      "exercises": [
+        {
+          "name": "壶铃摇摆",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        },
+        {
+          "name": "药球砸地",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "波比跳",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "登山者",
+          "sets": 3,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "战绳 30s×4",
+          "sets": 4,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "农夫行走",
+          "sets": 3,
+          "reps": "40s",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "蛋白分 4-5 次摄入，吸收更稳。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 8,
+      "date": "2026-08-08",
+      "weekday": "周六",
+      "week": 2,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "活跃恢复",
+      "training": false,
+      "exercises": [],
+      "cardio": "散步 40 分钟 / 瑜伽拉伸 20 分钟 / 泡沫轴放松",
+      "cardio_min": 40,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "每天饮水 2.5-3L，脂肪代谢需要水。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 9,
+      "date": "2026-08-09",
+      "weekday": "周日",
+      "week": 2,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "完全休息",
+      "training": false,
+      "exercises": [],
+      "cardio": "休息日，保证睡眠与蛋白质摄入",
+      "cardio_min": 0,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "训练前动态热身 5 分钟，避免受伤。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 10,
+      "date": "2026-08-10",
+      "weekday": "周一",
+      "week": 2,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "胸 + 三头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃平板卧推",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "上斜哑铃推举",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "器械夹胸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "双杠臂屈伸（自重）",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "绳索下压（三头）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "窄距俯卧撑",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "记录每次训练重量，下周尝试 +2.5kg 或 +1 次。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 11,
+      "date": "2026-08-11",
+      "weekday": "周二",
+      "week": 2,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "背 + 二头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "引体向上 / 高位下拉",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "杠铃划船",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿绳索划船",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "直臂下压",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "锤式弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "蛋白分 4-5 次摄入，吸收更稳。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 12,
+      "date": "2026-08-12",
+      "weekday": "周三",
+      "week": 2,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "腿 + 臀",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃深蹲",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "罗马尼亚硬拉",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "腿举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "保加利亚分腿蹲",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿腿屈伸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "站姿提踵",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "每天饮水 2.5-3L，脂肪代谢需要水。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 13,
+      "date": "2026-08-13",
+      "weekday": "周四",
+      "week": 2,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "肩 + 核心",
+      "training": true,
+      "exercises": [
+        {
+          "name": "站姿哑铃推举",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃侧平举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "反向飞鸟（后束）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "面拉",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "平板支撑",
+          "sets": 3,
+          "reps": "45-60s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "悬垂举腿",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "训练前动态热身 5 分钟，避免受伤。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 14,
+      "date": "2026-08-14",
+      "weekday": "周五",
+      "week": 2,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "全身功能 / HIIT",
+      "training": true,
+      "exercises": [
+        {
+          "name": "壶铃摇摆",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        },
+        {
+          "name": "药球砸地",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "波比跳",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "登山者",
+          "sets": 3,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "战绳 30s×4",
+          "sets": 4,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "农夫行走",
+          "sets": 3,
+          "reps": "40s",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "记录每次训练重量，下周尝试 +2.5kg 或 +1 次。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 15,
+      "date": "2026-08-15",
+      "weekday": "周六",
+      "week": 3,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "活跃恢复",
+      "training": false,
+      "exercises": [],
+      "cardio": "散步 40 分钟 / 瑜伽拉伸 20 分钟 / 泡沫轴放松",
+      "cardio_min": 40,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "蛋白分 4-5 次摄入，吸收更稳。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 16,
+      "date": "2026-08-16",
+      "weekday": "周日",
+      "week": 3,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "完全休息",
+      "training": false,
+      "exercises": [],
+      "cardio": "休息日，保证睡眠与蛋白质摄入",
+      "cardio_min": 0,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "每天饮水 2.5-3L，脂肪代谢需要水。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 17,
+      "date": "2026-08-17",
+      "weekday": "周一",
+      "week": 3,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "胸 + 三头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃平板卧推",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "上斜哑铃推举",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "器械夹胸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "双杠臂屈伸（自重）",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "绳索下压（三头）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "窄距俯卧撑",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "训练前动态热身 5 分钟，避免受伤。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 18,
+      "date": "2026-08-18",
+      "weekday": "周二",
+      "week": 3,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "背 + 二头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "引体向上 / 高位下拉",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "杠铃划船",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿绳索划船",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "直臂下压",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "锤式弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "记录每次训练重量，下周尝试 +2.5kg 或 +1 次。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 19,
+      "date": "2026-08-19",
+      "weekday": "周三",
+      "week": 3,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "腿 + 臀",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃深蹲",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "罗马尼亚硬拉",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "腿举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "保加利亚分腿蹲",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿腿屈伸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "站姿提踵",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "蛋白分 4-5 次摄入，吸收更稳。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 20,
+      "date": "2026-08-20",
+      "weekday": "周四",
+      "week": 3,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "肩 + 核心",
+      "training": true,
+      "exercises": [
+        {
+          "name": "站姿哑铃推举",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃侧平举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "反向飞鸟（后束）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "面拉",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "平板支撑",
+          "sets": 3,
+          "reps": "45-60s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "悬垂举腿",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "每天饮水 2.5-3L，脂肪代谢需要水。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 21,
+      "date": "2026-08-21",
+      "weekday": "周五",
+      "week": 3,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "全身功能 / HIIT",
+      "training": true,
+      "exercises": [
+        {
+          "name": "壶铃摇摆",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        },
+        {
+          "name": "药球砸地",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "波比跳",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "登山者",
+          "sets": 3,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "战绳 30s×4",
+          "sets": 4,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "农夫行走",
+          "sets": 3,
+          "reps": "40s",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "训练前动态热身 5 分钟，避免受伤。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 22,
+      "date": "2026-08-22",
+      "weekday": "周六",
+      "week": 4,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "活跃恢复",
+      "training": false,
+      "exercises": [],
+      "cardio": "散步 40 分钟 / 瑜伽拉伸 20 分钟 / 泡沫轴放松",
+      "cardio_min": 40,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "记录每次训练重量，下周尝试 +2.5kg 或 +1 次。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 23,
+      "date": "2026-08-23",
+      "weekday": "周日",
+      "week": 4,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "完全休息",
+      "training": false,
+      "exercises": [],
+      "cardio": "休息日，保证睡眠与蛋白质摄入",
+      "cardio_min": 0,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "蛋白分 4-5 次摄入，吸收更稳。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 24,
+      "date": "2026-08-24",
+      "weekday": "周一",
+      "week": 4,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "胸 + 三头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃平板卧推",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "上斜哑铃推举",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "器械夹胸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "双杠臂屈伸（自重）",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "绳索下压（三头）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "窄距俯卧撑",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "每天饮水 2.5-3L，脂肪代谢需要水。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 25,
+      "date": "2026-08-25",
+      "weekday": "周二",
+      "week": 4,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "背 + 二头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "引体向上 / 高位下拉",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "杠铃划船",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿绳索划船",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "直臂下压",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "锤式弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "训练前动态热身 5 分钟，避免受伤。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 26,
+      "date": "2026-08-26",
+      "weekday": "周三",
+      "week": 4,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "腿 + 臀",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃深蹲",
+          "sets": 4,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "罗马尼亚硬拉",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "腿举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "保加利亚分腿蹲",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿腿屈伸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "站姿提踵",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "记录每次训练重量，下周尝试 +2.5kg 或 +1 次。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 27,
+      "date": "2026-08-27",
+      "weekday": "周四",
+      "week": 4,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "肩 + 核心",
+      "training": true,
+      "exercises": [
+        {
+          "name": "站姿哑铃推举",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃侧平举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "反向飞鸟（后束）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "面拉",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "平板支撑",
+          "sets": 3,
+          "reps": "45-60s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "悬垂举腿",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "蛋白分 4-5 次摄入，吸收更稳。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 28,
+      "date": "2026-08-28",
+      "weekday": "周五",
+      "week": 4,
+      "phase": 1,
+      "phase_name": "基础适应期",
+      "phase_weeks": "第1-4周",
+      "focus": "全身功能 / HIIT",
+      "training": true,
+      "exercises": [
+        {
+          "name": "壶铃摇摆",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        },
+        {
+          "name": "药球砸地",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "波比跳",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "登山者",
+          "sets": 3,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "战绳 30s×4",
+          "sets": 4,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "农夫行走",
+          "sets": 3,
+          "reps": "40s",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "慢跑/快走 25 分钟（心率 120-135）",
+      "cardio_min": 25,
+      "nutrition": {
+        "calories": 2000,
+        "protein": 150,
+        "carb": 200,
+        "fat": 65
+      },
+      "tip": "每天饮水 2.5-3L，脂肪代谢需要水。",
+      "phase_desc": "激活神经肌肉、建立动作模式、低强度有氧打底，让身体适应训练节奏。"
+    },
+    {
+      "day": 29,
+      "date": "2026-08-29",
+      "weekday": "周六",
+      "week": 5,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "活跃恢复",
+      "training": false,
+      "exercises": [],
+      "cardio": "散步 40 分钟 / 瑜伽拉伸 20 分钟 / 泡沫轴放松",
+      "cardio_min": 40,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "大肌群优先，复合动作放在前面。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 30,
+      "date": "2026-08-30",
+      "weekday": "周日",
+      "week": 5,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "完全休息",
+      "training": false,
+      "exercises": [],
+      "cardio": "休息日，保证睡眠与蛋白质摄入",
+      "cardio_min": 0,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "睡眠 7-8 小时，肌肉在睡梦中生长。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 31,
+      "date": "2026-08-31",
+      "weekday": "周一",
+      "week": 5,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "胸 + 三头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃平板卧推",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "上斜哑铃推举",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "器械夹胸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "双杠臂屈伸（自重）",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "绳索下压（三头）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "窄距俯卧撑",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "每餐先吃蛋白质和蔬菜，再吃碳水。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 32,
+      "date": "2026-09-01",
+      "weekday": "周二",
+      "week": 5,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "背 + 二头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "引体向上 / 高位下拉",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "杠铃划船",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿绳索划船",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "直臂下压",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "锤式弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "称重每周固定时间（晨起空腹），别被日波动吓到。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 33,
+      "date": "2026-09-02",
+      "weekday": "周三",
+      "week": 5,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "腿 + 臀",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃深蹲",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "罗马尼亚硬拉",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "腿举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "保加利亚分腿蹲",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿腿屈伸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "站姿提踵",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "大肌群优先，复合动作放在前面。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 34,
+      "date": "2026-09-03",
+      "weekday": "周四",
+      "week": 5,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "肩 + 核心",
+      "training": true,
+      "exercises": [
+        {
+          "name": "站姿哑铃推举",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃侧平举",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "反向飞鸟（后束）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "面拉",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "平板支撑",
+          "sets": 3,
+          "reps": "45-60s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "悬垂举腿",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "睡眠 7-8 小时，肌肉在睡梦中生长。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 35,
+      "date": "2026-09-04",
+      "weekday": "周五",
+      "week": 5,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "全身功能 / HIIT",
+      "training": true,
+      "exercises": [
+        {
+          "name": "壶铃摇摆",
+          "sets": 5,
+          "reps": "15-20",
+          "rest": "60-90s"
+        },
+        {
+          "name": "药球砸地",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "波比跳",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "登山者",
+          "sets": 3,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "战绳 30s×4",
+          "sets": 4,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "农夫行走",
+          "sets": 3,
+          "reps": "40s",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "每餐先吃蛋白质和蔬菜，再吃碳水。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 36,
+      "date": "2026-09-05",
+      "weekday": "周六",
+      "week": 6,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "活跃恢复",
+      "training": false,
+      "exercises": [],
+      "cardio": "散步 40 分钟 / 瑜伽拉伸 20 分钟 / 泡沫轴放松",
+      "cardio_min": 40,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "称重每周固定时间（晨起空腹），别被日波动吓到。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 37,
+      "date": "2026-09-06",
+      "weekday": "周日",
+      "week": 6,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "完全休息",
+      "training": false,
+      "exercises": [],
+      "cardio": "休息日，保证睡眠与蛋白质摄入",
+      "cardio_min": 0,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "大肌群优先，复合动作放在前面。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 38,
+      "date": "2026-09-07",
+      "weekday": "周一",
+      "week": 6,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "胸 + 三头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃平板卧推",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "上斜哑铃推举",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "器械夹胸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "双杠臂屈伸（自重）",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "绳索下压（三头）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "窄距俯卧撑",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "睡眠 7-8 小时，肌肉在睡梦中生长。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 39,
+      "date": "2026-09-08",
+      "weekday": "周二",
+      "week": 6,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "背 + 二头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "引体向上 / 高位下拉",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "杠铃划船",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿绳索划船",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "直臂下压",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "锤式弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "每餐先吃蛋白质和蔬菜，再吃碳水。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 40,
+      "date": "2026-09-09",
+      "weekday": "周三",
+      "week": 6,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "腿 + 臀",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃深蹲",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "罗马尼亚硬拉",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "腿举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "保加利亚分腿蹲",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿腿屈伸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "站姿提踵",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "称重每周固定时间（晨起空腹），别被日波动吓到。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 41,
+      "date": "2026-09-10",
+      "weekday": "周四",
+      "week": 6,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "肩 + 核心",
+      "training": true,
+      "exercises": [
+        {
+          "name": "站姿哑铃推举",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃侧平举",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "反向飞鸟（后束）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "面拉",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "平板支撑",
+          "sets": 3,
+          "reps": "45-60s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "悬垂举腿",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "大肌群优先，复合动作放在前面。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 42,
+      "date": "2026-09-11",
+      "weekday": "周五",
+      "week": 6,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "全身功能 / HIIT",
+      "training": true,
+      "exercises": [
+        {
+          "name": "壶铃摇摆",
+          "sets": 5,
+          "reps": "15-20",
+          "rest": "60-90s"
+        },
+        {
+          "name": "药球砸地",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "波比跳",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "登山者",
+          "sets": 3,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "战绳 30s×4",
+          "sets": 4,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "农夫行走",
+          "sets": 3,
+          "reps": "40s",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "睡眠 7-8 小时，肌肉在睡梦中生长。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 43,
+      "date": "2026-09-12",
+      "weekday": "周六",
+      "week": 7,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "活跃恢复",
+      "training": false,
+      "exercises": [],
+      "cardio": "散步 40 分钟 / 瑜伽拉伸 20 分钟 / 泡沫轴放松",
+      "cardio_min": 40,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "每餐先吃蛋白质和蔬菜，再吃碳水。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 44,
+      "date": "2026-09-13",
+      "weekday": "周日",
+      "week": 7,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "完全休息",
+      "training": false,
+      "exercises": [],
+      "cardio": "休息日，保证睡眠与蛋白质摄入",
+      "cardio_min": 0,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "称重每周固定时间（晨起空腹），别被日波动吓到。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 45,
+      "date": "2026-09-14",
+      "weekday": "周一",
+      "week": 7,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "胸 + 三头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃平板卧推",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "上斜哑铃推举",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "器械夹胸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "双杠臂屈伸（自重）",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "绳索下压（三头）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "窄距俯卧撑",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "大肌群优先，复合动作放在前面。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 46,
+      "date": "2026-09-15",
+      "weekday": "周二",
+      "week": 7,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "背 + 二头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "引体向上 / 高位下拉",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "杠铃划船",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿绳索划船",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "直臂下压",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "锤式弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "睡眠 7-8 小时，肌肉在睡梦中生长。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 47,
+      "date": "2026-09-16",
+      "weekday": "周三",
+      "week": 7,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "腿 + 臀",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃深蹲",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "罗马尼亚硬拉",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "腿举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "保加利亚分腿蹲",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿腿屈伸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "站姿提踵",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "每餐先吃蛋白质和蔬菜，再吃碳水。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 48,
+      "date": "2026-09-17",
+      "weekday": "周四",
+      "week": 7,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "肩 + 核心",
+      "training": true,
+      "exercises": [
+        {
+          "name": "站姿哑铃推举",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃侧平举",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "反向飞鸟（后束）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "面拉",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "平板支撑",
+          "sets": 3,
+          "reps": "45-60s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "悬垂举腿",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "称重每周固定时间（晨起空腹），别被日波动吓到。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 49,
+      "date": "2026-09-18",
+      "weekday": "周五",
+      "week": 7,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "全身功能 / HIIT",
+      "training": true,
+      "exercises": [
+        {
+          "name": "壶铃摇摆",
+          "sets": 5,
+          "reps": "15-20",
+          "rest": "60-90s"
+        },
+        {
+          "name": "药球砸地",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "波比跳",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "登山者",
+          "sets": 3,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "战绳 30s×4",
+          "sets": 4,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "农夫行走",
+          "sets": 3,
+          "reps": "40s",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "大肌群优先，复合动作放在前面。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 50,
+      "date": "2026-09-19",
+      "weekday": "周六",
+      "week": 8,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "活跃恢复",
+      "training": false,
+      "exercises": [],
+      "cardio": "散步 40 分钟 / 瑜伽拉伸 20 分钟 / 泡沫轴放松",
+      "cardio_min": 40,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "睡眠 7-8 小时，肌肉在睡梦中生长。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 51,
+      "date": "2026-09-20",
+      "weekday": "周日",
+      "week": 8,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "完全休息",
+      "training": false,
+      "exercises": [],
+      "cardio": "休息日，保证睡眠与蛋白质摄入",
+      "cardio_min": 0,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "每餐先吃蛋白质和蔬菜，再吃碳水。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 52,
+      "date": "2026-09-21",
+      "weekday": "周一",
+      "week": 8,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "胸 + 三头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃平板卧推",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "上斜哑铃推举",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "器械夹胸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "双杠臂屈伸（自重）",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "绳索下压（三头）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "窄距俯卧撑",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "称重每周固定时间（晨起空腹），别被日波动吓到。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 53,
+      "date": "2026-09-22",
+      "weekday": "周二",
+      "week": 8,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "背 + 二头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "引体向上 / 高位下拉",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "杠铃划船",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿绳索划船",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "直臂下压",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "锤式弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "大肌群优先，复合动作放在前面。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 54,
+      "date": "2026-09-23",
+      "weekday": "周三",
+      "week": 8,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "腿 + 臀",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃深蹲",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "罗马尼亚硬拉",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "腿举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "保加利亚分腿蹲",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿腿屈伸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "站姿提踵",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "睡眠 7-8 小时，肌肉在睡梦中生长。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 55,
+      "date": "2026-09-24",
+      "weekday": "周四",
+      "week": 8,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "肩 + 核心",
+      "training": true,
+      "exercises": [
+        {
+          "name": "站姿哑铃推举",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃侧平举",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "反向飞鸟（后束）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "面拉",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "平板支撑",
+          "sets": 3,
+          "reps": "45-60s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "悬垂举腿",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "每餐先吃蛋白质和蔬菜，再吃碳水。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 56,
+      "date": "2026-09-25",
+      "weekday": "周五",
+      "week": 8,
+      "phase": 2,
+      "phase_name": "进阶增肌减脂期",
+      "phase_weeks": "第5-8周",
+      "focus": "全身功能 / HIIT",
+      "training": true,
+      "exercises": [
+        {
+          "name": "壶铃摇摆",
+          "sets": 5,
+          "reps": "15-20",
+          "rest": "60-90s"
+        },
+        {
+          "name": "药球砸地",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "波比跳",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "登山者",
+          "sets": 3,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "战绳 30s×4",
+          "sets": 4,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "农夫行走",
+          "sets": 3,
+          "reps": "40s",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "坡度快走 30 分钟 或 划船机 20 分钟",
+      "cardio_min": 30,
+      "nutrition": {
+        "calories": 1850,
+        "protein": 155,
+        "carb": 175,
+        "fat": 60
+      },
+      "tip": "称重每周固定时间（晨起空腹），别被日波动吓到。",
+      "phase_desc": "提高训练容量与强度，渐进超负荷刺激肌肉生长，同时保持热量缺口减脂。"
+    },
+    {
+      "day": 57,
+      "date": "2026-09-26",
+      "weekday": "周六",
+      "week": 9,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "活跃恢复",
+      "training": false,
+      "exercises": [],
+      "cardio": "散步 40 分钟 / 瑜伽拉伸 20 分钟 / 泡沫轴放松",
+      "cardio_min": 40,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "组间休息压缩到 45-60s，提高代谢消耗。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 58,
+      "date": "2026-09-27",
+      "weekday": "周日",
+      "week": 9,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "完全休息",
+      "training": false,
+      "exercises": [],
+      "cardio": "休息日，保证睡眠与蛋白质摄入",
+      "cardio_min": 0,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "碳水集中在训练前后，其余餐低碳。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 59,
+      "date": "2026-09-28",
+      "weekday": "周一",
+      "week": 9,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "胸 + 三头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃平板卧推",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "上斜哑铃推举",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "器械夹胸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "双杠臂屈伸（自重）",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "绳索下压（三头）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "窄距俯卧撑",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "每周拍一张同角度照片，肉眼对比比秤更准。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 60,
+      "date": "2026-09-29",
+      "weekday": "周二",
+      "week": 9,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "背 + 二头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "引体向上 / 高位下拉",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "杠铃划船",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿绳索划船",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "直臂下压",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "锤式弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "平台期可尝试 1 天高碳（refeed）重启代谢。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 61,
+      "date": "2026-09-30",
+      "weekday": "周三",
+      "week": 9,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "腿 + 臀",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃深蹲",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "罗马尼亚硬拉",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "腿举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "保加利亚分腿蹲",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿腿屈伸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "站姿提踵",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "组间休息压缩到 45-60s，提高代谢消耗。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 62,
+      "date": "2026-10-01",
+      "weekday": "周四",
+      "week": 9,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "肩 + 核心",
+      "training": true,
+      "exercises": [
+        {
+          "name": "站姿哑铃推举",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃侧平举",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "反向飞鸟（后束）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "面拉",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "平板支撑",
+          "sets": 3,
+          "reps": "45-60s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "悬垂举腿",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "碳水集中在训练前后，其余餐低碳。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 63,
+      "date": "2026-10-02",
+      "weekday": "周五",
+      "week": 9,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "全身功能 / HIIT",
+      "training": true,
+      "exercises": [
+        {
+          "name": "壶铃摇摆",
+          "sets": 5,
+          "reps": "15-20",
+          "rest": "60-90s"
+        },
+        {
+          "name": "药球砸地",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "波比跳",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "登山者",
+          "sets": 3,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "战绳 30s×4",
+          "sets": 4,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "农夫行走",
+          "sets": 3,
+          "reps": "40s",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "每周拍一张同角度照片，肉眼对比比秤更准。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 64,
+      "date": "2026-10-03",
+      "weekday": "周六",
+      "week": 10,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "活跃恢复",
+      "training": false,
+      "exercises": [],
+      "cardio": "散步 40 分钟 / 瑜伽拉伸 20 分钟 / 泡沫轴放松",
+      "cardio_min": 40,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "平台期可尝试 1 天高碳（refeed）重启代谢。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 65,
+      "date": "2026-10-04",
+      "weekday": "周日",
+      "week": 10,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "完全休息",
+      "training": false,
+      "exercises": [],
+      "cardio": "休息日，保证睡眠与蛋白质摄入",
+      "cardio_min": 0,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "组间休息压缩到 45-60s，提高代谢消耗。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 66,
+      "date": "2026-10-05",
+      "weekday": "周一",
+      "week": 10,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "胸 + 三头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃平板卧推",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "上斜哑铃推举",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "器械夹胸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "双杠臂屈伸（自重）",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "绳索下压（三头）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "窄距俯卧撑",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "碳水集中在训练前后，其余餐低碳。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 67,
+      "date": "2026-10-06",
+      "weekday": "周二",
+      "week": 10,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "背 + 二头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "引体向上 / 高位下拉",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "杠铃划船",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿绳索划船",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "直臂下压",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "锤式弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "每周拍一张同角度照片，肉眼对比比秤更准。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 68,
+      "date": "2026-10-07",
+      "weekday": "周三",
+      "week": 10,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "腿 + 臀",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃深蹲",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "罗马尼亚硬拉",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "腿举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "保加利亚分腿蹲",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿腿屈伸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "站姿提踵",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "平台期可尝试 1 天高碳（refeed）重启代谢。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 69,
+      "date": "2026-10-08",
+      "weekday": "周四",
+      "week": 10,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "肩 + 核心",
+      "training": true,
+      "exercises": [
+        {
+          "name": "站姿哑铃推举",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃侧平举",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "反向飞鸟（后束）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "面拉",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "平板支撑",
+          "sets": 3,
+          "reps": "45-60s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "悬垂举腿",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "组间休息压缩到 45-60s，提高代谢消耗。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 70,
+      "date": "2026-10-09",
+      "weekday": "周五",
+      "week": 10,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "全身功能 / HIIT",
+      "training": true,
+      "exercises": [
+        {
+          "name": "壶铃摇摆",
+          "sets": 5,
+          "reps": "15-20",
+          "rest": "60-90s"
+        },
+        {
+          "name": "药球砸地",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "波比跳",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "登山者",
+          "sets": 3,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "战绳 30s×4",
+          "sets": 4,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "农夫行走",
+          "sets": 3,
+          "reps": "40s",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "碳水集中在训练前后，其余餐低碳。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 71,
+      "date": "2026-10-10",
+      "weekday": "周六",
+      "week": 11,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "活跃恢复",
+      "training": false,
+      "exercises": [],
+      "cardio": "散步 40 分钟 / 瑜伽拉伸 20 分钟 / 泡沫轴放松",
+      "cardio_min": 40,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "每周拍一张同角度照片，肉眼对比比秤更准。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 72,
+      "date": "2026-10-11",
+      "weekday": "周日",
+      "week": 11,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "完全休息",
+      "training": false,
+      "exercises": [],
+      "cardio": "休息日，保证睡眠与蛋白质摄入",
+      "cardio_min": 0,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "平台期可尝试 1 天高碳（refeed）重启代谢。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 73,
+      "date": "2026-10-12",
+      "weekday": "周一",
+      "week": 11,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "胸 + 三头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃平板卧推",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "上斜哑铃推举",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "器械夹胸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "双杠臂屈伸（自重）",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "绳索下压（三头）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "窄距俯卧撑",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "组间休息压缩到 45-60s，提高代谢消耗。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 74,
+      "date": "2026-10-13",
+      "weekday": "周二",
+      "week": 11,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "背 + 二头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "引体向上 / 高位下拉",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "杠铃划船",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿绳索划船",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "直臂下压",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "锤式弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "碳水集中在训练前后，其余餐低碳。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 75,
+      "date": "2026-10-14",
+      "weekday": "周三",
+      "week": 11,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "腿 + 臀",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃深蹲",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "罗马尼亚硬拉",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "腿举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "保加利亚分腿蹲",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿腿屈伸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "站姿提踵",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "每周拍一张同角度照片，肉眼对比比秤更准。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 76,
+      "date": "2026-10-15",
+      "weekday": "周四",
+      "week": 11,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "肩 + 核心",
+      "training": true,
+      "exercises": [
+        {
+          "name": "站姿哑铃推举",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃侧平举",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "反向飞鸟（后束）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "面拉",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "平板支撑",
+          "sets": 3,
+          "reps": "45-60s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "悬垂举腿",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "平台期可尝试 1 天高碳（refeed）重启代谢。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 77,
+      "date": "2026-10-16",
+      "weekday": "周五",
+      "week": 11,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "全身功能 / HIIT",
+      "training": true,
+      "exercises": [
+        {
+          "name": "壶铃摇摆",
+          "sets": 5,
+          "reps": "15-20",
+          "rest": "60-90s"
+        },
+        {
+          "name": "药球砸地",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "波比跳",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "登山者",
+          "sets": 3,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "战绳 30s×4",
+          "sets": 4,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "农夫行走",
+          "sets": 3,
+          "reps": "40s",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "组间休息压缩到 45-60s，提高代谢消耗。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 78,
+      "date": "2026-10-17",
+      "weekday": "周六",
+      "week": 12,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "活跃恢复",
+      "training": false,
+      "exercises": [],
+      "cardio": "散步 40 分钟 / 瑜伽拉伸 20 分钟 / 泡沫轴放松",
+      "cardio_min": 40,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "碳水集中在训练前后，其余餐低碳。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 79,
+      "date": "2026-10-18",
+      "weekday": "周日",
+      "week": 12,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "完全休息",
+      "training": false,
+      "exercises": [],
+      "cardio": "休息日，保证睡眠与蛋白质摄入",
+      "cardio_min": 0,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "每周拍一张同角度照片，肉眼对比比秤更准。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 80,
+      "date": "2026-10-19",
+      "weekday": "周一",
+      "week": 12,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "胸 + 三头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃平板卧推",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "上斜哑铃推举",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "器械夹胸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "双杠臂屈伸（自重）",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "绳索下压（三头）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "窄距俯卧撑",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "平台期可尝试 1 天高碳（refeed）重启代谢。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 81,
+      "date": "2026-10-20",
+      "weekday": "周二",
+      "week": 12,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "背 + 二头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "引体向上 / 高位下拉",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "杠铃划船",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿绳索划船",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "直臂下压",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "锤式弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "组间休息压缩到 45-60s，提高代谢消耗。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 82,
+      "date": "2026-10-21",
+      "weekday": "周三",
+      "week": 12,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "腿 + 臀",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃深蹲",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "罗马尼亚硬拉",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "腿举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "保加利亚分腿蹲",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿腿屈伸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "站姿提踵",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "碳水集中在训练前后，其余餐低碳。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 83,
+      "date": "2026-10-22",
+      "weekday": "周四",
+      "week": 12,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "肩 + 核心",
+      "training": true,
+      "exercises": [
+        {
+          "name": "站姿哑铃推举",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃侧平举",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "反向飞鸟（后束）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "面拉",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "平板支撑",
+          "sets": 3,
+          "reps": "45-60s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "悬垂举腿",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "每周拍一张同角度照片，肉眼对比比秤更准。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 84,
+      "date": "2026-10-23",
+      "weekday": "周五",
+      "week": 12,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "全身功能 / HIIT",
+      "training": true,
+      "exercises": [
+        {
+          "name": "壶铃摇摆",
+          "sets": 5,
+          "reps": "15-20",
+          "rest": "60-90s"
+        },
+        {
+          "name": "药球砸地",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "波比跳",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "登山者",
+          "sets": 3,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "战绳 30s×4",
+          "sets": 4,
+          "reps": "30s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "农夫行走",
+          "sets": 3,
+          "reps": "40s",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "平台期可尝试 1 天高碳（refeed）重启代谢。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 85,
+      "date": "2026-10-24",
+      "weekday": "周六",
+      "week": 13,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "活跃恢复",
+      "training": false,
+      "exercises": [],
+      "cardio": "散步 40 分钟 / 瑜伽拉伸 20 分钟 / 泡沫轴放松",
+      "cardio_min": 40,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "组间休息压缩到 45-60s，提高代谢消耗。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 86,
+      "date": "2026-10-25",
+      "weekday": "周日",
+      "week": 13,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "完全休息",
+      "training": false,
+      "exercises": [],
+      "cardio": "休息日，保证睡眠与蛋白质摄入",
+      "cardio_min": 0,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "碳水集中在训练前后，其余餐低碳。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 87,
+      "date": "2026-10-26",
+      "weekday": "周一",
+      "week": 13,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "胸 + 三头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃平板卧推",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "上斜哑铃推举",
+          "sets": 4,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "器械夹胸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "双杠臂屈伸（自重）",
+          "sets": 3,
+          "reps": "8-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "绳索下压（三头）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "窄距俯卧撑",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "每周拍一张同角度照片，肉眼对比比秤更准。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 88,
+      "date": "2026-10-27",
+      "weekday": "周二",
+      "week": 13,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "背 + 二头",
+      "training": true,
+      "exercises": [
+        {
+          "name": "引体向上 / 高位下拉",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "杠铃划船",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿绳索划船",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "直臂下压",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "锤式弯举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "平台期可尝试 1 天高碳（refeed）重启代谢。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 89,
+      "date": "2026-10-28",
+      "weekday": "周三",
+      "week": 13,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "腿 + 臀",
+      "training": true,
+      "exercises": [
+        {
+          "name": "杠铃深蹲",
+          "sets": 5,
+          "reps": "8-10",
+          "rest": "60-90s"
+        },
+        {
+          "name": "罗马尼亚硬拉",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "腿举",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "保加利亚分腿蹲",
+          "sets": 3,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "坐姿腿屈伸",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "站姿提踵",
+          "sets": 4,
+          "reps": "15-20",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "组间休息压缩到 45-60s，提高代谢消耗。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    },
+    {
+      "day": 90,
+      "date": "2026-10-29",
+      "weekday": "周四",
+      "week": 13,
+      "phase": 3,
+      "phase_name": "冲刺塑形期",
+      "phase_weeks": "第9-12周",
+      "focus": "肩 + 核心",
+      "training": true,
+      "exercises": [
+        {
+          "name": "站姿哑铃推举",
+          "sets": 5,
+          "reps": "10-12",
+          "rest": "60-90s"
+        },
+        {
+          "name": "哑铃侧平举",
+          "sets": 4,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "反向飞鸟（后束）",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "面拉",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        },
+        {
+          "name": "平板支撑",
+          "sets": 3,
+          "reps": "45-60s",
+          "rest": "60-90s"
+        },
+        {
+          "name": "悬垂举腿",
+          "sets": 3,
+          "reps": "12-15",
+          "rest": "60-90s"
+        }
+      ],
+      "cardio": "HIIT 20 分钟（冲刺30s+慢走40s×8）或 空腹快走 35 分钟",
+      "cardio_min": 35,
+      "nutrition": {
+        "calories": 1750,
+        "protein": 160,
+        "carb": 150,
+        "fat": 55
+      },
+      "tip": "碳水集中在训练前后，其余餐低碳。",
+      "phase_desc": "提高训练密度（超级组/短间歇），增加 HIIT，进一步降低体脂、刻画线条。"
+    }
+  ]
+}
