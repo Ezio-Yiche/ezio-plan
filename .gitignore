@@ -1,0 +1,6 @@
+# 不推送到公开仓库
+.workbuddy/
+.ghtoken
+.ghrepo
+gen_fitness.py
+data/last_deploy.txt
